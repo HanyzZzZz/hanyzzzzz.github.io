@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./resources/css/style.css">
-    <script src="./resources/js/script.js"></script>
+    <script src="./resources/js/script.js" async></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital@0;1&family=Work+Sans:wght@400;500;800&display=swap" rel="stylesheet">
@@ -19,6 +19,10 @@
             <li><a href="./index.html">About me</a></li>
             <li><a href="./projects.html">Projects</a></li>
             <li><a href="./contacts.html">Contact</a></li>
+            <li><span class="material-symbols-outlined" onclick="toggleDarkMode()" id="darkMode">
+                dark_mode
+                </span>
+            </li>
         </ul>
     </nav>
     <header>
@@ -28,7 +32,7 @@
           </h1>
           <h4>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd</h4>
       </div>
-      <div id="hero-card" onclick="print">
+      <div id="hero-card" onmouseenter="showSocials()" onmouseleave="showGetInTouch()">
         <div  class="img-wrapper">
             <img src="./resources/img/1200x1200-Osobni.png" alt="Image of me">
         </div>
@@ -37,13 +41,13 @@
         </div>
         <div id="get-in-touch-socials">
             <span class="material-symbols-outlined">
-                call
+                <a href="#">call</a>
             </span>
             <span class="material-symbols-outlined">
-                mail
+                <a href="#">mail</a>
             </span>
             <span class="material-symbols-outlined">
-                favorite
+                <a href="#">favorite</a>
             </span>
         </div>
       </div>
