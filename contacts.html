@@ -4,16 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./resources/css/style.css">
+    <script src="./resources/js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital@0;1&family=Work+Sans:wght@400;500;800&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
     <nav>
         <h5>Jan Raska</h4>
         <ul>
-            <li><a href="./about.html">About me</a></li>
+            <li><a href="./index.html">About me</a></li>
             <li><a href="./projects.html">Projects</a></li>
             <li><a href="./contacts.html">Contact</a></li>
         </ul>
     </nav>
+    <header>
+      <div id="hero-text-base">
+          <h1>
+            Contact
+          </h1>
+          <h4>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd</h4>
+      </div>
+      <div id="hero-picture">
+        <img src="./resources/img/Design-set-03-35.png" alt="Image of me">
+      </div>
+    </header>
+    <main>
+        <h2>Stay in touch with me...</h2>
+        <div id="cards">
+            <div class="card1">
+                <script src="script.js"></script>
+                <div onclick = "changeBackground()" class="card-bg-color">
+                    <!-- <img src="./resources/img/Banery.png" alt="display-banners and design"> -->
+                </div>
+                <h4>mobile</h4>
+                <p>Sorry, but i dont think that's neceserry.</p>
+            </div>
+            <div class="card2">
+                <img src="./resources/img/ilustrace.png" alt="Illustration and drawings">
+                <h4>E-mail</h4>
+                <p><a href="mailto:jr@janraska.cz">jr@janraska.cz</a></p>
+            </div>
+            <div class="card3">
+                <img src="./resources/img/logo.png" alt="logo design">
+                <h4>Socials</h4>
+                <p><a href="#">facebook</a>, <a href="#">instagram</a></p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Personal project for Codecademy</p>
+    </footer>
 </body>
 </html>
