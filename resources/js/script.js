@@ -1,4 +1,2 @@
-const changeBackground = () => {
-    const card = document.querySelector('.card-bg-color');
-    card.style.backgroundColor = 'black';
-}
+const document = document.getElementById("hero-card");
+console.log(document);
