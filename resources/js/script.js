@@ -19,11 +19,12 @@ function showGetInTouch () {
 let darkMode = false;
 function toggleDarkMode (){
     if(darkMode === true) {
-        
+        document.body.style.backgroundColor = '#ffffff';
         console.log('darkmode ' + darkMode);
+        
         return darkMode = false; 
     } else {
-        document.body.style.color = 'red';
+        document.body.style.backgroundColor = '#10162f';
         console.log('darkmode ' + darkMode);
         return darkMode = true;
     }
