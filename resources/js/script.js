@@ -1,2 +1,4 @@
 const document = document.getElementById("hero-card");
-console.log('hero-card');
+function print (){
+    console.log('hero-card'); 
+}
