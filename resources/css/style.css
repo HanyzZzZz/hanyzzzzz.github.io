@@ -301,3 +301,53 @@ footer {
     text-align: center;
 }
 
+/* ///////////////////////////===Media querry===/////////////////////////// */
+#mobile {
+    display: none;
+}
+
+@media screen and (max-width: 750px) {
+    #desktop {
+        display: none;
+    }
+
+    #mobile {
+        display: flex;
+    }
+    #mobile nav, ul {
+        display: inline-flex;
+        list-style: none;
+        font-size: 16px;
+        font-family: 'Noto Sans';
+        font-weight: 400;
+        color: #202124;
+        line-height: 22px;
+        font-weight: 700;
+        align-items: center;
+    }
+    
+    #mobile nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 8px 40px;
+    }
+    
+/*     
+    
+    nav a {
+        text-decoration: none;
+    }
+    
+    a {
+        color: #202124;
+    }
+    
+    a:hover {
+        text-decoration: underline;
+    }
+    
+    a:active {
+        color: #202124;
+    }
+     */
+  }
